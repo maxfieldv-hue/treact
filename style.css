@@ -110,12 +110,15 @@ LANDING
 .landing__header {
     font-size: 48px;
     margin-bottom: 24px;
+    letter-spacing: .75px;
 }
 
 .landing__description {
-    font-size: 18px;
-    color: grey;
+    font-size: 16px;
+    color: rgb(83, 83, 83);
     margin-bottom: 24px;
+    letter-spacing: .25px;
+    line-height: 18pt;
 }
 
 .header__img--wrapper {

@@ -11,6 +11,8 @@
 
 
 .row {
+    display: flex;
+    align-items: center;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -274,4 +276,48 @@ FEATURES
     margin-top: 16px;
     font-weight: 600;
     color: rgb(148, 158, 180);
+}
+
+/*
+
+QUALITY
+
+*/
+
+.quality__text--wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 40%;
+}
+
+.learn-more__button {
+    color: white;
+    background-color: #6415ff;
+    font-weight: 600;
+    padding: 12px 32px;
+    border-radius: 20px;
+    border: none;
+    width: 140px;
+}
+
+.learn-more__button:hover {
+    background-color: #5018c2;
+}
+
+.quality__section--para {
+    color: rgb(132, 140, 168);
+    letter-spacing: .1pt;
+    font-weight: 600;
+    line-height: 1.75;
+    margin-bottom: 32px;
+}
+
+.quality__img--wrapper{
+    width: 60%;
+    height: 100%;
+}
+
+.quality__img {
+    width: 100%;
 }

@@ -314,10 +314,28 @@ QUALITY
 }
 
 .quality__img--wrapper{
+    display: flex;
+    justify-content: end;
     width: 60%;
-    height: 100%;
 }
 
 .quality__img {
-    width: 100%;
+    max-width: 600px;
+    padding-left: 54px;
+    padding-right: 0;
+}
+
+/*
+
+STEPS
+
+*/
+
+.steps__img--wrapper {
+    width: 60%;
+}
+
+.steps__img {
+    max-width: 500px;
+    padding-right: 36px;
 }

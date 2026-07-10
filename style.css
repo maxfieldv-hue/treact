@@ -339,3 +339,34 @@ STEPS
     max-width: 500px;
     padding-right: 36px;
 }
+
+.step {
+    display: flex;
+    align-items: flex-start;
+    padding: 24px 0 24px 0;
+}
+
+.step__number {
+    font-size: 36px;
+    color: rgb(205, 210, 214);
+    margin-right: 24px;
+    font-weight: 600;
+    letter-spacing: 1pt;
+}
+
+.step__text--wrapper {
+    max-width: 400px;
+}
+
+.step__title {
+    font-size: 22px;
+    letter-spacing: .5pt;
+    padding-bottom: 16px;
+    color: rgb(56, 73, 112);
+}
+
+.step__para{
+    line-height: 1.5;
+    font-weight: 500;
+    color: rgb(132, 140, 168);
+}

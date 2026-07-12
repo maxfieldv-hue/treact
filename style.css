@@ -16,7 +16,7 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 48px;
+    padding: 0;
 }
 
 a {
@@ -370,3 +370,96 @@ STEPS
     font-weight: 500;
     color: rgb(132, 140, 168);
 }
+
+/*
+
+VALUES
+
+*/
+
+.values__text--wrapper {
+    width: 50%;
+    padding-right: 24px;
+}
+
+.values__img--wrapper {
+    width: 40%;
+}
+
+.values__img {
+    max-width: 600px;
+}
+
+.values__para {
+    line-height: 1.5;
+    color: rgb(132, 140, 168);
+    padding-right: 36px;
+    font-weight: 800px;
+    font-size: 20px;
+}
+
+.values__list {
+    display: flex;
+    margin-top: 36px;
+    margin-bottom: 26px;
+}
+
+.value__bullet {
+    padding-right: 24px;
+}
+
+.value__title--wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 16px;
+}
+
+.value__img--wrapper {
+    margin-right: 16px;
+}
+
+.value__img--affordable {
+    border-radius: 50%;
+    padding: 8px;
+    background-color: rgb(172, 221, 173);
+}
+
+.value__img--professionalism {
+    border-radius: 50%;
+    padding: 8px;
+    background-color: rgb(252, 190, 190);
+}
+
+.value__bullet--title {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(56, 73, 112);
+    letter-spacing: 1;
+}
+
+.value__para {
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(132, 140, 168);
+}
+
+.values__button {   
+    color: white;
+    background-color: #6415ff;
+    font-weight: 600;
+    padding: 12px 32px;
+    border-radius: 20px;
+    border: none;
+    width: 140px;
+}
+
+.values__button:hover {
+    background-color: #5018c2;
+}
+
+/*
+
+PRICING
+
+*/

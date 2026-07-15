@@ -498,14 +498,14 @@ PRICING
     width: 100%;
     max-width: 24rem;
     margin-top: 4rem;
-    border-radius: 10%;
-    border: grey solid 2px;
     border-radius: .5rem;
     text-align: center;
     padding-right: 2rem;
     padding-left: 2rem;
+    margin-right: 2rem;
     padding-top: .5rem;
-    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; 
+    color: rgb(26, 32, 44);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
 
 .plan__stripe {
@@ -589,6 +589,14 @@ PRICING
     transition: 300ms;
     border-radius: 9999px;
     border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0;
+}
+
+.plan__button:hover {
+    transform: translateY(-1px) translateX(1px);
+    box-shadow: 0 12px 15px rgba(0, 0, 0, .1);
 }
 
 .plan:nth-child(2) {

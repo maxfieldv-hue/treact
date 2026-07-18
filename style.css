@@ -845,14 +845,13 @@ START
 }
 
 .footer__column--link {
-    color: white;
+    color: #f7fafc;
+    font-size: 14px;
+    margin-top: 12px;
+    line-height: 1.5;
     font-weight: 500;
-    font-size: 13px;
-    letter-spacing: 1;
-    padding-bottom: 8px;
-    margin-bottom: 8px;
-    cursor: pointer;
     position: relative;
+    cursor: pointer;
 }
 
 .footer__column--link::after {
@@ -867,6 +866,6 @@ START
     opacity: 0;
 }
 
-.footer__column--link::after:hover {
+.footer__column--link:hover::after {
     opacity: 1;
 }

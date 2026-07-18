@@ -853,6 +853,8 @@ START
     font-weight: 500;
     position: relative;
     cursor: pointer;
+    display: inline-block;
+    width: fit-content;
 }
 
 .footer__column--link::after {
@@ -875,7 +877,7 @@ START
     width: 100%;
     margin: 64px 0;
     height: 2px;
-    color: white;
+    background-color: rgba(255,255,255,0.3)
 }
 
 .footer__bottom {
@@ -910,16 +912,79 @@ START
     font-weight: 5400;
 }
 
+.footer__socials {
+    display: flex;
+    align-items: center;
+}
+
 .footer__social--link {
     margin-left: 16px;
     padding: 8px;
     background: #f7fafc;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.footer__social--link:hover {
+    background-color: rgb(210, 209, 209);
 }
 
 .footer__social--icon {
     height: 16px;
+}
+
+/*
+
+MOBILE RESPONSIVENESS
+
+*/
+
+@media(max-width: 1280px) {
+    header .row {
+        align-items: flex-end;
+    }
+}
+
+@media (max-width: 1024px) {
+    btn__menu {
+        display: block;
+    }
+    header .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer {
+        padding: 80px 32px;
+    }
+}
+
+@media(max-width: 768px) {
+    #quality .row,
+    #values .row {
+        flex-direction: column-reverse;
+    }
+    #steps .row,
+    #testimonials .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    #pricing .row {
+        margin-top: 40px;
+    }
+}
+
+@media(max-width: 640px) {
+    .container {
+        padding: 80px 0;
+    }
+    .nav__logo {
+        margin: 8px 0;
+        padding-bottom: 4px;
+    }
+    main {
+        margin-bottom: 80px;
+    }
 }

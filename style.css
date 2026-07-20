@@ -109,6 +109,8 @@ nav {
     height: 24px;
     width: 24px;
     cursor: pointer;
+    padding-top: 18px;
+    padding-right: 36px;
 }
 
 .menu__backdrop {
@@ -1195,7 +1197,7 @@ MOBILE RESPONSIVENESS
         text-align: center;
     }
 
-
+}
 @media(max-width: 768px) {
 
     #pricing .row {
